@@ -1,0 +1,38 @@
+    /* ============================================= */
+    /*              Buttons                          */
+    /* ============================================= */
+    
+    .btn {
+        margin-top: 15px;
+        width: 100%;
+        color: $color-text;
+        border: none;
+        padding: 10px 0;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    
+    .default {
+        background-color: #51ddfc;
+        @include hover ($default)
+    }
+    
+    .error {
+        background-color: #e4757a;
+        @include hover ($error);
+    }
+    
+    .info {
+        background-color: #927bc1;
+        @include hover ($info);
+    }
+    
+    .success {
+        background-color: #63cc82;
+        @include hover ($success);
+    }
+    
+    .warning {
+        background-color: #fd7856;
+        @include hover ($warning);
+    }
